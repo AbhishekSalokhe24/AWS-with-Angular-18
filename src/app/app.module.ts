@@ -10,8 +10,8 @@ import { CookieService } from 'ngx-cookie-service';
 Amplify.configure({
   Auth: {
     Cognito: {
-      userPoolId: 'us-east-1_elpXBwqhh',
-      userPoolClientId: '3mc5f6lv98usoj8mt2fmavaqlc'
+      userPoolId: 'YOUR_POOL_ID',
+      userPoolClientId: 'YOUR_CLIENT_ID'
     }
   }
 });
